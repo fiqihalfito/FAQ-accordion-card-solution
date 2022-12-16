@@ -16,7 +16,7 @@ const IconArrow = ({ isOpen }) => {
 }
 
 
-function Answer({ answer, isOpen }) {
+function Answer({ answer }) {
 
     const variants = {
         open: { height: 'auto', marginTop: ".5rem" },
