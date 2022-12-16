@@ -1,9 +1,10 @@
-import Image from 'next/image'
+import Card from "../components/card";
 
 export default function Home() {
   return (
-    <h1 className="text-9xl font-bold bg-amber-500 text-yellow-500">
-      Hello world!
-    </h1>
+    <div className="h-screen w-screen px-8 flex items-center justify-center bg-gradient-to-t
+     from-custom-primary-gradient-blue to-custom-primary-gradient-violet">
+      <Card />
+    </div>
   )
 }
