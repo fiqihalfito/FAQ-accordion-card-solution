@@ -46,6 +46,10 @@ module.exports = {
           "0px 41.8px 33.4px rgba(0, 0, 0, 0.093)",
           "0px 100px 80px rgba(0, 0, 0, 0.13)"
         ]
+      },
+      backgroundImage: {
+        'mobile': 'url(/images/bg-pattern-mobile.svg)',
+        'desktop': 'url(/images/bg-pattern-desktop.svg)'
       }
     },
   },

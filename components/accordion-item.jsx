@@ -38,9 +38,9 @@ function AccordionItem({ question, answer }) {
     const [isOpen, setOpen] = useState(false)
 
     return (
-        <div className={`text-xs py-4 border-b-2 cursor-pointer`} onClick={() => setOpen(!isOpen)}>
+        <div className={`group text-xs py-4 border-b-2 cursor-pointer`} onClick={() => setOpen(!isOpen)}>
             <div className="flex justify-between items-center">
-                <h1 className={`${isOpen && 'font-bold'} text-custom-primary-text-blue`}>{question}</h1>
+                <h1 className={`${isOpen && 'font-bold'} text-custom-primary-text-blue group-hover:text-custom-primary-text-red`}>{question}</h1>
                 <IconArrow isOpen={isOpen} />
             </div>
             <AnimatePresence>
